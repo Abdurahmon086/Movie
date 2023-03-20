@@ -26,3 +26,27 @@ main {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
+
+.book-mark {
+    position: absolute;
+    background: blueviolet;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    height: 70vh;
+    padding: 10px;
+    overflow-y: scroll;
+    top: 0;
+    right: 0 ;
+}
+
+.book-mark .card {
+    width: 250px;
+    
+}
+
+.none {
+    display: none;
+}
