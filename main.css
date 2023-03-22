@@ -27,26 +27,44 @@ main {
     white-space: nowrap;
 }
 
-.book-mark {
+
+
+.book__wrapper {
     position: absolute;
     background: blueviolet;
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    width: 300px;
-    height: 70vh;
+    width: 320px;
+    height: 105vh;
     padding: 10px;
     overflow-y: scroll;
     top: 0;
     right: 0 ;
 }
 
+.book-mark {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
 .book-mark .card {
-    width: 250px;
-    
+    width: 250px;    
 }
 
 .none {
     display: none;
+}
+
+.clear {
+    margin-bottom: 0;
+    font-size: 20px;
+    z-index: 99;
+    background: #ca3131;
+    width: 100px;
+    text-align: center;
+    color: #fff;
 }
